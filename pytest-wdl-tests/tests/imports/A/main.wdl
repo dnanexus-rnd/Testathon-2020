@@ -1,6 +1,6 @@
 version 1.0
 
-# check that we can specify import directories on the command line.
+# check that we can import relative paths
 import "library.wdl" as lib
 
 workflow main {

@@ -1,6 +1,6 @@
 def test_multi_level(workflow_runner):
     """
-    import file A, that imports file B, that imports file C that has a task
+    run a workflow in main.wdl, that imports util.wdl, that imports library.wdl that has a task
     """
     inputs = {
         "file_name" : "foo.txt"
